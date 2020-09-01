@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/chatbook/static/css/main.4bb8270d.chunk.css",
+    "main.js": "/chatbook/static/js/main.223755d1.chunk.js",
+    "main.js.map": "/chatbook/static/js/main.223755d1.chunk.js.map",
+    "runtime-main.js": "/chatbook/static/js/runtime-main.22b5f2d4.js",
+    "runtime-main.js.map": "/chatbook/static/js/runtime-main.22b5f2d4.js.map",
+    "static/js/2.e4a12b3d.chunk.js": "/chatbook/static/js/2.e4a12b3d.chunk.js",
+    "static/js/2.e4a12b3d.chunk.js.map": "/chatbook/static/js/2.e4a12b3d.chunk.js.map",
+    "index.html": "/chatbook/index.html",
+    "precache-manifest.beeef91b84f1eae07fe43214d384ca69.js": "/chatbook/precache-manifest.beeef91b84f1eae07fe43214d384ca69.js",
+    "service-worker.js": "/chatbook/service-worker.js",
+    "static/css/main.4bb8270d.chunk.css.map": "/chatbook/static/css/main.4bb8270d.chunk.css.map",
+    "static/js/2.e4a12b3d.chunk.js.LICENSE.txt": "/chatbook/static/js/2.e4a12b3d.chunk.js.LICENSE.txt",
+    "static/media/Chat.css": "/chatbook/static/media/whatspp-bg.adbccee0.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.22b5f2d4.js",
+    "static/js/2.e4a12b3d.chunk.js",
+    "static/css/main.4bb8270d.chunk.css",
+    "static/js/main.223755d1.chunk.js"
+  ]
+}
