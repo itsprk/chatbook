@@ -40,6 +40,18 @@ const Chat = () => {
     setSeed(Math.floor(Math.random() * 5000));
   }, []);
 
+  useEffect(() => {
+    firebase.auth().onAuthStateChanged((user) => {
+      if (user) {
+        dispatch({
+          type: "SET_USER",
+          user,
+        });
+      } else {
+      }
+    });
+  }, []);
+
   const sendMessage = (e) => {
     e.preventDefault();
     console.log(input);
