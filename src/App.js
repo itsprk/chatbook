@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./App.css";
 import Sidebar from "./components/Sidebar/Sidebar";
 import Chat from "./components/Chat/Chat";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import Login from "./components/Login/Login";
 import { useStateValue } from "./components/Context API/StateProvider";
 import firebase from "firebase";
@@ -27,7 +27,7 @@ const App = () => {
         <Login />
       ) : (
         <div className="app_body">
-          <Router>
+          <Router basename="/">
             <Sidebar />
             <Switch>
               <Route path="/rooms/:roomId">
